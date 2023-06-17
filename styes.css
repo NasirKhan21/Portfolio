@@ -1,0 +1,139 @@
+ body{
+    background-color: #40514E;
+    color:#E4F9F5;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+
+} 
+ p{
+    line-height: 2;
+    text-align: left;
+} 
+
+ h1{
+    color: #66BFBF;
+    /* font-size: 5.625rem; */
+     margin: 50px auto 0; 
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom : 30px; 
+} 
+ h3{
+    color : #11999E;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width:6px;
+    width:5%;
+    margin : 100px auto;
+}
+
+.top{
+    background-color: #E4F9F5; 
+    padding-top:100px; 
+}
+
+.middle{
+    padding: 100px 0;
+}
+.intro{
+    font-family: cursive;
+    width:40%;
+    margin:auto;
+}
+
+#computer_image{
+    
+    float:left;
+    margin-right:30px;
+}
+#java{
+    
+    float:right;
+    margin-left:30px;
+}
+#python{
+    float:left;
+    margin-right:30px;
+}
+.footer-link{
+    color:#11999E;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    text-decoration: underline;
+    color:#002B5B;
+}
+.skill-row{
+    width:50%;
+    margin: 100px auto;
+    text-align:left;
+}
+.conclude{
+    width:30%;
+    margin:40px auto 60px;
+
+}
+
+
+.bottom{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.bottom p{
+    color:#EAF6F6;
+    font-size: .75rem;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#navbarSupportedContent{
+    text-align: left;
+}
+ 
+ @media (min-width:320px) { 
+    h1 {
+        font-size: 3rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        
+    }
+}
+@media (min-width:1281px) { 
+    h1 {
+        font-size: 6rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        
+    }
+
+} 
+
+
